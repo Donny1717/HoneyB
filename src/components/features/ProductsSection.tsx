@@ -176,7 +176,7 @@ function ProductCard({
           <div className="mt-8">
             <Link
               to={product.ctaLink}
-              className="group/btn inline-flex items-center gap-2 rounded-lg bg-[hsl(var(--honey))] px-5 py-2.5 text-sm font-600 text-[hsl(222_25%_6%)] transition-all duration-200 hover:bg-[hsl(var(--honey-glow))] hover:shadow-[0_0_24px_hsl(38_85%_45%/0.25)]"
+              className="group/btn inline-flex items-center gap-2 rounded-lg bg-[hsl(var(--honey))] px-5 py-2.5 text-sm font-600 text-[hsl(160_30%_5%)] transition-all duration-200 hover:bg-[hsl(var(--honey-glow))] hover:shadow-[0_0_24px_hsl(152_65%_42%/0.25)]"
             >
               {product.cta}
               <ArrowRight className="size-3.5 transition-transform duration-200 group-hover/btn:translate-x-0.5" />

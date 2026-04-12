@@ -4,47 +4,47 @@
 
 @layer base {
   :root {
-    /* Honey-B2024 Dark Theme */
-    --background: 222 25% 6%;
-    --foreground: 40 20% 92%;
+    /* Honey-B2024 Net Zero Green Theme */
+    --background: 160 30% 5%;
+    --foreground: 140 15% 92%;
 
-    --card: 222 22% 9%;
-    --card-foreground: 40 20% 92%;
+    --card: 158 26% 8%;
+    --card-foreground: 140 15% 92%;
 
-    --popover: 222 22% 9%;
-    --popover-foreground: 40 20% 92%;
+    --popover: 158 26% 8%;
+    --popover-foreground: 140 15% 92%;
 
-    --primary: 38 85% 45%;
-    --primary-foreground: 222 25% 6%;
+    --primary: 152 65% 42%;
+    --primary-foreground: 160 30% 5%;
 
-    --secondary: 222 18% 14%;
-    --secondary-foreground: 40 15% 80%;
+    --secondary: 158 22% 13%;
+    --secondary-foreground: 140 12% 78%;
 
-    --muted: 222 18% 14%;
-    --muted-foreground: 220 10% 50%;
+    --muted: 158 22% 13%;
+    --muted-foreground: 155 10% 48%;
 
-    --accent: 38 85% 45%;
-    --accent-foreground: 222 25% 6%;
+    --accent: 152 65% 42%;
+    --accent-foreground: 160 30% 5%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 222 18% 16%;
-    --input: 222 18% 16%;
-    --ring: 38 85% 45%;
+    --border: 158 20% 15%;
+    --input: 158 20% 15%;
+    --ring: 152 65% 42%;
 
     --radius: 0.625rem;
 
-    /* Custom Brand Tokens */
-    --honey: 38 85% 45%;
-    --honey-glow: 38 90% 55%;
-    --honey-dim: 38 60% 30%;
-    --surface-1: 222 22% 9%;
-    --surface-2: 222 20% 12%;
-    --surface-3: 222 18% 16%;
-    --text-bright: 40 20% 95%;
-    --text-default: 40 15% 80%;
-    --text-muted: 220 10% 50%;
+    /* Custom Brand Tokens – Net Zero Green */
+    --honey: 152 65% 42%;
+    --honey-glow: 152 70% 52%;
+    --honey-dim: 152 45% 28%;
+    --surface-1: 158 26% 8%;
+    --surface-2: 158 22% 11%;
+    --surface-3: 158 20% 15%;
+    --text-bright: 140 15% 95%;
+    --text-default: 140 12% 78%;
+    --text-muted: 155 10% 48%;
   }
 
   * {
@@ -68,26 +68,26 @@
 /* Honeycomb pattern background */
 .honeycomb-pattern {
   background-image: 
-    radial-gradient(circle at 25% 25%, hsl(38 85% 45% / 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 75% 75%, hsl(38 85% 45% / 0.02) 0%, transparent 50%);
+    radial-gradient(circle at 25% 25%, hsl(152 65% 42% / 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, hsl(152 65% 42% / 0.02) 0%, transparent 50%);
 }
 
 /* Glow effects */
 .glow-amber {
-  box-shadow: 0 0 40px hsl(38 85% 45% / 0.15), 0 0 80px hsl(38 85% 45% / 0.05);
+  box-shadow: 0 0 40px hsl(152 65% 42% / 0.15), 0 0 80px hsl(152 65% 42% / 0.05);
 }
 
 .glow-amber-subtle {
-  box-shadow: 0 0 20px hsl(38 85% 45% / 0.08), 0 0 40px hsl(38 85% 45% / 0.03);
+  box-shadow: 0 0 20px hsl(152 65% 42% / 0.08), 0 0 40px hsl(152 65% 42% / 0.03);
 }
 
 .glow-border {
-  border: 1px solid hsl(38 85% 45% / 0.2);
+  border: 1px solid hsl(152 65% 42% / 0.2);
 }
 
 /* Gradient text */
 .text-gradient-honey {
-  background: linear-gradient(135deg, hsl(38 90% 60%), hsl(38 85% 45%), hsl(32 80% 40%));
+  background: linear-gradient(135deg, hsl(152 70% 55%), hsl(152 65% 42%), hsl(158 55% 32%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -100,7 +100,7 @@
 }
 
 .hex-grid-bg {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='52'%3E%3Cpath d='M30 0L60 15v22L30 52 0 37V15z' fill='none' stroke='%23D4930D' stroke-width='0.3' opacity='0.06'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='52'%3E%3Cpath d='M30 0L60 15v22L30 52 0 37V15z' fill='none' stroke='%2336B37E' stroke-width='0.3' opacity='0.06'/%3E%3C/svg%3E");
   background-size: 60px 52px;
 }
 
@@ -110,16 +110,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(222 25% 6%);
+  background: hsl(160 30% 5%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(222 18% 20%);
+  background: hsl(158 20% 18%);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(38 85% 45% / 0.4);
+  background: hsl(152 65% 42% / 0.4);
 }
 
 /* Section reveal animation */

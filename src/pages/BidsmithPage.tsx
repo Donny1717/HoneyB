@@ -70,25 +70,25 @@ const ARCHITECTURE_LAYERS = [
     icon: <Database className="size-5" />,
     label: "Data Layer",
     items: ["Contracts Finder API", "Find a Tender", "Historical Bid Store", "Vector Embeddings"],
-    colour: "from-amber-500/20 to-amber-700/5",
+    colour: "from-emerald-500/20 to-emerald-700/5",
   },
   {
     icon: <Cpu className="size-5" />,
     label: "Intelligence Layer",
     items: ["Win-Probability Model", "Compliance Engine", "NLP Extraction", "Semantic Search"],
-    colour: "from-amber-600/15 to-amber-800/5",
+    colour: "from-emerald-600/15 to-emerald-800/5",
   },
   {
     icon: <Workflow className="size-5" />,
     label: "Orchestration Layer",
     items: ["Pipeline Scheduler", "Approval Workflow", "Notification Engine", "Audit Trail"],
-    colour: "from-amber-700/12 to-amber-900/5",
+    colour: "from-emerald-700/12 to-emerald-900/5",
   },
   {
     icon: <Lock className="size-5" />,
     label: "Security Layer",
     items: ["UK Data Residency", "Role-Based Access", "Encryption at Rest", "SOC 2 Controls"],
-    colour: "from-amber-800/10 to-amber-950/5",
+    colour: "from-emerald-800/10 to-emerald-950/5",
   },
 ];
 
@@ -149,7 +149,7 @@ function BidsmithHero() {
       {/* BG */}
       <div className="absolute inset-0">
         <img src={bidsmithImg} alt="" className="size-full object-cover opacity-30" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[hsl(222_25%_6%/0.65)] via-[hsl(222_25%_6%/0.8)] to-[hsl(222_25%_6%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[hsl(160_30%_5%/0.65)] via-[hsl(160_30%_5%/0.8)] to-[hsl(160_30%_5%)]" />
         <div className="absolute inset-0 hex-grid-bg opacity-30" />
       </div>
 
@@ -507,7 +507,7 @@ function CTASection() {
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <a
                 href="mailto:hello@honeyb2024.co.uk?subject=Bidsmith%20Early%20Access"
-                className="inline-flex items-center gap-2 rounded-lg bg-[hsl(var(--honey))] px-6 py-3.5 text-sm font-600 text-[hsl(222_25%_6%)] transition-all duration-200 hover:bg-[hsl(var(--honey-glow))] hover:shadow-[0_0_32px_hsl(38_85%_45%/0.3)]"
+                className="inline-flex items-center gap-2 rounded-lg bg-[hsl(var(--honey))] px-6 py-3.5 text-sm font-600 text-[hsl(160_30%_5%)] transition-all duration-200 hover:bg-[hsl(var(--honey-glow))] hover:shadow-[0_0_32px_hsl(152_65%_42%/0.3)]"
               >
                 Register Early Interest
                 <ArrowRight className="size-4" />

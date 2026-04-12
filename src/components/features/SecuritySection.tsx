@@ -71,7 +71,7 @@ export default function SecuritySection() {
           alt=""
           className="size-full object-cover opacity-15"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-[hsl(222_25%_6%/0.9)] to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-[hsl(160_30%_5%/0.9)] to-background" />
       </div>
 
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">

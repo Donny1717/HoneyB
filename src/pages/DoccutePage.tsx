@@ -72,25 +72,25 @@ const ARCHITECTURE_LAYERS = [
     icon: <Cloud className="size-5" />,
     label: "Ingestion Layer",
     items: ["File Upload API", "URL Fetcher", "Email Parser", "Webhook Receiver"],
-    colour: "from-amber-500/20 to-amber-700/5",
+    colour: "from-emerald-500/20 to-emerald-700/5",
   },
   {
     icon: <Cpu className="size-5" />,
     label: "Processing Layer",
     items: ["OCR Engine", "Layout Analyser", "Table Extractor", "Metadata Enrichment"],
-    colour: "from-amber-600/15 to-amber-800/5",
+    colour: "from-emerald-600/15 to-emerald-800/5",
   },
   {
     icon: <Layers className="size-5" />,
     label: "Intelligence Layer",
     items: ["Semantic Chunker", "Embedding Generator", "Entity Recognition", "Classification Model"],
-    colour: "from-amber-700/12 to-amber-900/5",
+    colour: "from-emerald-700/12 to-emerald-900/5",
   },
   {
     icon: <Database className="size-5" />,
     label: "Output Layer",
     items: ["Vector Store", "PDF Generator", "Signature Service", "Export API"],
-    colour: "from-amber-800/10 to-amber-950/5",
+    colour: "from-emerald-800/10 to-emerald-950/5",
   },
 ];
 
@@ -151,7 +151,7 @@ function DoccuteHero() {
       {/* BG */}
       <div className="absolute inset-0">
         <img src={doccuteImg} alt="" className="size-full object-cover opacity-30" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[hsl(222_25%_6%/0.65)] via-[hsl(222_25%_6%/0.8)] to-[hsl(222_25%_6%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[hsl(160_30%_5%/0.65)] via-[hsl(160_30%_5%/0.8)] to-[hsl(160_30%_5%)]" />
         <div className="absolute inset-0 hex-grid-bg opacity-30" />
       </div>
 
@@ -509,7 +509,7 @@ function CTASection() {
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
               <a
                 href="mailto:hello@honeyb2024.co.uk?subject=Doccute%20API%20Access"
-                className="inline-flex items-center gap-2 rounded-lg bg-[hsl(var(--honey))] px-6 py-3.5 text-sm font-600 text-[hsl(222_25%_6%)] transition-all duration-200 hover:bg-[hsl(var(--honey-glow))] hover:shadow-[0_0_32px_hsl(38_85%_45%/0.3)]"
+                className="inline-flex items-center gap-2 rounded-lg bg-[hsl(var(--honey))] px-6 py-3.5 text-sm font-600 text-[hsl(160_30%_5%)] transition-all duration-200 hover:bg-[hsl(var(--honey-glow))] hover:shadow-[0_0_32px_hsl(152_65%_42%/0.3)]"
               >
                 Request API Access
                 <ArrowRight className="size-4" />

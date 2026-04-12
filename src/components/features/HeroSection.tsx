@@ -24,7 +24,7 @@ export default function HeroSection() {
           alt=""
           className="size-full object-cover opacity-40"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[hsl(222_25%_6%/0.6)] via-[hsl(222_25%_6%/0.75)] to-[hsl(222_25%_6%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[hsl(160_30%_5%/0.6)] via-[hsl(160_30%_5%/0.75)] to-[hsl(160_30%_5%)]" />
         <div className="absolute inset-0 hex-grid-bg opacity-40" />
       </div>
 
@@ -88,7 +88,7 @@ export default function HeroSection() {
             >
               <button
                 onClick={scrollToPhilosophy}
-                className="group inline-flex items-center gap-2.5 rounded-lg bg-[hsl(var(--honey))] px-6 py-3.5 text-sm font-600 text-[hsl(222_25%_6%)] transition-all duration-200 hover:bg-[hsl(var(--honey-glow))] hover:shadow-[0_0_32px_hsl(38_85%_45%/0.3)]"
+                className="group inline-flex items-center gap-2.5 rounded-lg bg-[hsl(var(--honey))] px-6 py-3.5 text-sm font-600 text-[hsl(160_30%_5%)] transition-all duration-200 hover:bg-[hsl(var(--honey-glow))] hover:shadow-[0_0_32px_hsl(152_65%_42%/0.3)]"
               >
                 Discover Our Ecosystem
                 <ArrowDown className="size-4 transition-transform duration-200 group-hover:translate-y-0.5" />

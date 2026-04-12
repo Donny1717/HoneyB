@@ -25,7 +25,7 @@ function App() {
     <Suspense
       fallback={
         <div className="flex min-h-screen items-center justify-center bg-background">
-          <div className="size-8 animate-spin rounded-full border-2 border-[hsl(var(--honey))] border-t-transparent" />
+          <div className="size-8 animate-spin rounded-full border-2 border-[hsl(152_65%_42%)] border-t-transparent" />
         </div>
       }
     >

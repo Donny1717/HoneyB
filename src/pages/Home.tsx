@@ -4,6 +4,7 @@ import HeroSection from "@/components/features/HeroSection";
 import PhilosophySection from "@/components/features/PhilosophySection";
 import ProductsSection from "@/components/features/ProductsSection";
 import SecuritySection from "@/components/features/SecuritySection";
+import StatsSection from "@/components/features/StatsSection";
 import PageTransition from "@/components/layout/PageTransition";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <HeroSection />
         <SectionDivider />
         <PhilosophySection />
+        <StatsSection />
         <SectionDivider />
         <ProductsSection />
         <SectionDivider />
