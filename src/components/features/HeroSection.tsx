@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { ArrowDown, Hexagon, Zap, Network } from "lucide-react";
+import { ArrowDown, Hexagon, Zap, Network, Leaf } from "lucide-react";
 import { motion, useInView } from "framer-motion";
 import heroImg from "@/assets/hero-bg.jpg";
 
@@ -133,6 +133,29 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+
+      {/* Net Zero Badge */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={inView ? { opacity: 1, scale: 1 } : {}}
+        transition={{ duration: 0.6, delay: 0.5, type: "spring", stiffness: 200 }}
+        className="absolute right-6 top-28 z-20 hidden xl:block"
+      >
+        <div className="net-zero-badge group relative flex items-center gap-2.5 rounded-full border border-[hsl(var(--honey)/0.3)] bg-[hsl(160_30%_5%/0.85)] px-5 py-2.5 backdrop-blur-md">
+          <div className="net-zero-badge-glow" />
+          <div className="relative flex size-8 items-center justify-center rounded-full bg-[hsl(var(--honey)/0.15)]">
+            <Leaf className="size-4 text-[hsl(var(--honey))]" />
+          </div>
+          <div className="relative">
+            <p className="text-[10px] font-700 uppercase tracking-widest text-[hsl(var(--honey))]">
+              Net Zero
+            </p>
+            <p className="text-[11px] font-500 text-[hsl(var(--text-default))]">
+              Certified Commitment
+            </p>
+          </div>
+        </div>
+      </motion.div>
 
       {/* Bottom gradient fade */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
